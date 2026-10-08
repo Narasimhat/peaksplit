@@ -1,0 +1,12 @@
+{
+  "name": "peaksplit",
+  "version": "1.0.0",
+  "description": "Deconvolution of CRISPR edits from Sanger chromatograms, in the browser",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node test/run.js",
+    "build": "node tools/bundle.js",
+    "dev": "npx --yes serve ."
+  }
+}
